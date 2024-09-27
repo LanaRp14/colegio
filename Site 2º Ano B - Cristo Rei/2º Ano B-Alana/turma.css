@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-image: linear-gradient(to right , #a70052 , #0f094f , #0000ff);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.barra-pesquisa{
+ width: 400px;
+ height: 30px;
+ border-radius: 10px;
+ border: 3px solid black;
+}
+.botão-login{
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 18px;
+}
+.botao-login:hover{
+    background-color: black;
+    color: white;
+
+}
+.cabecalho_direito{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr); 
+    max-height: 99vh;
+}
+.conheca{
+    grid-row: 1;
+    grid-column: 1/9;
+
+text-align: center;
+}
